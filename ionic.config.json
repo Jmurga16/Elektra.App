@@ -1,0 +1,7 @@
+{
+  "name": "elektra-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
