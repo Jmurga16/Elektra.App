@@ -1,0 +1,14 @@
+<div class="overlay" *ngIf="isLoading">
+    <!--  <div class="lds-ripple">
+        <div></div>
+        <div></div>
+    </div> -->
+    <div style="text-align: center;">
+        <img [src]="dataLoad?.imageUrl" alt="" width="320" height="320">
+        <p>
+            {{dataLoad?.text}}
+        </p>
+    </div>
+    <br>
+
+</div>
